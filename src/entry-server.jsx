@@ -7,7 +7,7 @@ export function render(url) {
   const collector = { current: null }
   const appHtml = renderToStaticMarkup(
     <SeoContext.Provider value={collector}>
-      <StaticRouter location={url}><App /></StaticRouter>
+      <StaticRouter basename={import.meta.env.BASE_URL} location={`${import.meta.env.BASE_URL.replace(/\/$/, '')}${url}`}><App /></StaticRouter>
     </SeoContext.Provider>,
   )
   return { appHtml, head: collector.current }

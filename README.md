@@ -85,3 +85,11 @@ Estas variables terminan en JavaScript público: nunca guardar credenciales o se
 La web funciona localmente y cuenta con rutas prerenderizadas, metadata, schema, sitemap, redirecciones de migración, páginas comerciales, blog publicado/borrador, calculadoras, mapa interactivo y captura de leads preparada.
 
 Antes de producción todavía deben verificarse las integraciones externas: n8n/Notion, GTM/GA4, Search Console, Bing Webmaster Tools, DNS/HTTPS y la ficha de hechos aprobados por gerencia. Consulte el detalle en el registro de implementación.
+
+## Enlace web de revisión
+
+- Web: https://giraldj8-glitch.github.io/adesystem-landing/
+- Repositorio público: https://github.com/giraldj8-glitch/adesystem-landing
+- Los cambios en `main` se publican mediante `.github/workflows/pages.yml`.
+- GitHub Pages usa `VITE_BASE_PATH=/adesystem-landing/`. El build habitual conserva `/` para el dominio propio y Docker.
+- Este enlace no sustituye el dominio de producción: canonical y sitemap conservan `www.adesystem.com.co`. Las redirecciones Nginx corresponden al despliegue en servidor propio.

@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/assets.js'
 import { Link } from 'react-router-dom'
 import { SITE, whatsapp } from '../data/site'
 
@@ -36,7 +37,7 @@ export default function Footer() {
       <div className="content-shell">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link to="/" aria-label="ADE System, Inicio"><img src="/adesystem-logo.png" width="170" height="50" alt="Adesystem Ingeniería S.A.S. - Lo hacemos posible" /></Link>
+            <Link to="/" aria-label="ADE System, Inicio"><img src={assetUrl('/adesystem-logo.png')} width="170" height="50" alt="Adesystem Ingeniería S.A.S. - Lo hacemos posible" /></Link>
             <p>Infraestructura crítica para empresas en Bogotá y proyectos en Colombia.</p>
             <a href={whatsapp()} target="_blank" rel="noopener noreferrer">{SITE.phone}</a>
             <a href={`mailto:${SITE.email}`}>{SITE.email}</a>

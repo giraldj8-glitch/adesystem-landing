@@ -1,3 +1,4 @@
+import { assetUrl } from '../src/lib/assets.js'
 import assert from 'node:assert/strict'
 import { existsSync } from 'node:fs'
 import { SYSTEMS, systemsForPage } from '../src/data/systems.js'
@@ -23,3 +24,5 @@ assert.equal(systemsForPage('plantas-electricas-bogota', 'electrical')[0], 'plan
 assert.equal(systemsForPage('datacenter-bogota', 'network')[0], 'datacenter')
 assert.deepEqual(systemsForPage('confort-y-seguridad', 'security'), ['seguridad', 'clima'])
 console.log('Visual content: renders, page mapping and conversion links passed')
+
+assert.equal(assetUrl('/images/example.webp'), '/images/example.webp')

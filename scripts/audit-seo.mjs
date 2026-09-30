@@ -25,7 +25,8 @@ function match(html, expression) {
 }
 
 function targetExists(pathname) {
-  const clean = decodeURIComponent(pathname).replace(/^\/+/, '')
+  const base = process.env.VITE_BASE_PATH || '/'
+  const clean = decodeURIComponent(pathname.startsWith(base) ? pathname.slice(base.length) : pathname).replace(/^\/+/, '')
   return existsSync(join(dist, clean)) || existsSync(join(dist, clean, 'index.html')) || existsSync(join(dist, `${clean}.html`))
 }
 

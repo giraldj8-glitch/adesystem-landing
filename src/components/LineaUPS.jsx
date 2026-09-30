@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/assets.js'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { whatsapp } from '../data/site'
@@ -29,7 +30,7 @@ export default function LineaUPS() {
             <a className="btn blackout-cta" href={whatsapp('Hola, quiero saber qué equipos debo respaldar y qué UPS necesita mi empresa.')} target="_blank" rel="noopener noreferrer">Quiero revisar mi respaldo →</a>
             <Link className="blackout-secondary" to="/utilidades/calculadora-ups-kva/">Ya conozco mis equipos: calcular UPS →</Link>
           </div>
-          <div><DetailImage key={step.image} src={`/images/detalle-${step.image}-adesystem.webp`} alt={step.alt} /><p className="blackout-caption">Visualización conceptual · La solución se dimensiona para cada empresa.</p></div>
+          <div><DetailImage key={step.image} src={assetUrl(`/images/detalle-${step.image}-adesystem.webp`)} alt={step.alt} /><p className="blackout-caption">Visualización conceptual · La solución se dimensiona para cada empresa.</p></div>
         </div>
       </div>
     </section>

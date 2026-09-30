@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/assets.js'
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -41,7 +42,7 @@ export default function Navbar() {
   return (
     <header className={`site-header${scrolled || pathname !== '/' ? ' is-solid' : ''}`}>
       <Link to="/" className="brand-link" aria-label="ADE System, Inicio">
-        <img src="/adesystem-logo.png" width="170" height="50" alt="Adesystem Ingeniería S.A.S. - Lo hacemos posible" />
+        <img src={assetUrl('/adesystem-logo.png')} width="170" height="50" alt="Adesystem Ingeniería S.A.S. - Lo hacemos posible" />
       </Link>
       <nav className="nav-desktop" aria-label="Navegación principal">
         {LINKS.map(link => <Link key={link.to} to={link.to}>{link.label}</Link>)}

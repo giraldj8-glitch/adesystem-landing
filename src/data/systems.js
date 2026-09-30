@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/assets.js'
 export const SYSTEMS = [
   {
     id: 'energia', number: '01', title: 'Subestación y tableros', color: '#32D894', x: 14, y: 73,
@@ -51,7 +52,7 @@ const explanations = {
 
 for (const system of SYSTEMS) {
   const [benefit, explanation, next] = explanations[system.id]
-  Object.assign(system, { benefit, explanation, next, src: `/images/detalle-${system.id}-adesystem.webp`, alt: `Render conceptual de ${system.title.toLowerCase()}` })
+  Object.assign(system, { benefit, explanation, next, src: assetUrl(`/images/detalle-${system.id}-adesystem.webp`), alt: `Render conceptual de ${system.title.toLowerCase()}` })
 }
 
 export function systemsForPage(slug, mediaKey) {

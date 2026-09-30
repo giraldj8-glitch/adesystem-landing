@@ -1,3 +1,4 @@
+import { assetUrl } from '../lib/assets.js'
 import { Link } from 'react-router-dom'
 
 const pillars = [
@@ -19,7 +20,7 @@ export default function Servicios() {
           {pillars.map(item => (
             <Link key={item.to} to={item.to} style={{ '--pillar-color': item.color }}>
               <div className="pillar-image">
-                <img src={`/images/detalle-${item.image}-adesystem.webp`} alt={`Render conceptual de ${item.title.toLowerCase()}`} width="1672" height="941" loading="lazy" decoding="async" />
+                <img src={assetUrl(`/images/detalle-${item.image}-adesystem.webp`)} alt={`Render conceptual de ${item.title.toLowerCase()}`} width="1672" height="941" loading="lazy" decoding="async" />
               </div>
               <h3>{item.title}</h3><p>{item.text}</p><span>Ver alcance →</span>
             </Link>
