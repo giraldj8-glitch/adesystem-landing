@@ -1,0 +1,11 @@
+# Migración Wix y errores reales para hosts compatibles con _redirects
+/home                         /                                      301
+/arquitecturaeléctrica        /servicios/arquitectura-electrica/     301
+/arquitecturadered            /servicios/arquitectura-de-red/        301
+/confortyseguridad            /servicios/confort-y-seguridad/        301
+/productos                    /ups-bogota/                            301
+/post/lorem-ipsum             /404.html                              410
+/post/lorem-ipsum-1           /404.html                              410
+/post/lorem-ipsum-2           /404.html                              410
+/post/articulo-2              /404.html                              410
+/*                            /404.html                              404

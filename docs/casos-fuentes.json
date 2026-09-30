@@ -1,0 +1,36 @@
+{
+  "source": "https://www.adesystem.com.co/",
+  "section": "Historias de clientes",
+  "consulted": "2026-09-26",
+  "note": "Casos incorporados por solicitud del usuario. La web pública comparte fotografía entre Amadeus y Vitalis; el logo publicado con Pharmetique Labs es La Santé. No se han extrapolado garantías o disponibilidad del servicio.",
+  "assets": [
+    {
+      "local": "public/images/casos/caso-pharmetique.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_31a7eff12a05432c824caaed6e457ac8~mv2.jpg"
+    },
+    {
+      "local": "public/images/casos/caso-amadeus-vitalis.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_406477fa40f64f7981366cccdd1afc12~mv2.jpg"
+    },
+    {
+      "local": "public/images/casos/caso-davivienda.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_d8639dcb0b8f4b2fb4b04dc0366dba7b~mv2.jpg"
+    },
+    {
+      "local": "public/images/casos/cliente-pharmetique.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_3232986e76f44aaab18550eda7c11c39~mv2.png"
+    },
+    {
+      "local": "public/images/casos/cliente-amadeus.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_2087e4b3e3084833a42227c26e45c4c6~mv2.png"
+    },
+    {
+      "local": "public/images/casos/cliente-davivienda.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_9ba1d0d1d2844a8188fb74e2171dd0f2~mv2.png"
+    },
+    {
+      "local": "public/images/casos/cliente-vitalis.webp",
+      "original": "https://static.wixstatic.com/media/5d76f4_864c73d013d54b27bc80ee594c3d64f0~mv2.png"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen (integrado)",
+  "images": [
+    {
+      "id": "energia",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Create a premium architectural isometric cutaway 3D render of a business electrical equipment room, showing a dry-type transformer in protective enclosure and closed distribution panels with neatly organized cable trays and grounding. Wide landscape composition, entire equipment visible, clean pale blue-grey studio background, precise realistic materials, navy equipment and subtle green indicators, soft daylight and shadows, premium engineering visualization, understandable for a nontechnical business owner. No people, no words, no labels, no logos, no watermark. Conceptual visualization, not a construction drawing."
+    },
+    {
+      "id": "ups",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a dedicated UPS power backup cabinet beside organized enclosed battery cabinets, one front panel cut away to reveal neat rows of batteries, short clean connecting conduits, small server rack in the background. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "datacenter",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a small enterprise data center with two rows of black server racks, visible servers and neat overhead cable trays, a clear central aisle and raised floor cutaway. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "red",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of an office network installation with a close view of a patch panel rack and network switches, beautifully organized blue Ethernet cables and yellow fiber cables, a ceiling wireless access point visible in the background. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "seguridad",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a corporate entrance with access control card reader, glass security door, ceiling dome surveillance camera, smoke detector, and security desk with monitoring screens. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "clima",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a precision cooling unit beside enterprise server cabinets, a small cutaway showing heat exchanger and fan, subtle translucent blue airflow ribbons clearly showing cooling toward the racks. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "interiorismo",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a beautiful furnished contemporary corporate office cutaway, ergonomic workstations, meeting room glass wall, acoustic ceiling panels, recessed lighting, neatly integrated floor cable channels. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "fachada",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of a complete contemporary two-story corporate office building with finished glass facade, visible lobby and office furniture through windows, subtle partial cutaway of one corner revealing concealed service routes. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    },
+    {
+      "id": "planta",
+      "prompt": "Use case: stylized-concept. Asset type: website interactive infrastructure explorer detail render. Premium architectural isometric cutaway 3D render of an industrial standby diesel generator in a well-ventilated dedicated equipment room, navy soundproof enclosure with one panel cut away showing engine and alternator, outdoor exhaust routed above roof, closed automatic transfer switch cabinet beside it. Wide landscape composition, whole subject visible, pale blue-grey studio backdrop, navy equipment with small green indicators, realistic materials, soft bright daylight and ambient shadows. Cohesive premium engineering visualization for a nontechnical business owner. No people, no words, no text, no labels, no logos, no watermark. Conceptual illustration, not a construction drawing."
+    }
+  ]
+}

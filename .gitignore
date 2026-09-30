@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.ssr/
+.env
+.env.local
+.env.*
+!.env.example
+.DS_Store
+npm-debug.log*
+
+# Fuentes internas y material de trabajo; no forman parte de la web.
+Contexto adesystem/
+adesystem-landing version anterior/
+fotos adesystem/
+logos ades/
+ConSentido-para-AdeSystem.md
+.aws/
+.codex/
+.agents/

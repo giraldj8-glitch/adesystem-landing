@@ -1,0 +1,25 @@
+{
+  "name": "adesystem-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/audit-content.mjs && node scripts/generate-sitemap.mjs && vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/prerender.mjs && node scripts/audit-seo.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
+    "audit:seo": "node scripts/audit-seo.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "preview": "vite preview",
+    "test": "node tests/ups-calculator.test.mjs && node tests/technical-calculators.test.mjs && node tests/visual-content.test.mjs && node scripts/audit-content.mjs && node scripts/audit-nginx.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.24",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.17.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}
